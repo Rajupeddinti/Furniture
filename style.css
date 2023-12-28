@@ -1,0 +1,1350 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header span{
+    display: flex;
+    justify-content: center;
+    padding: 3% 0;
+    color: rgb(46, 104, 239);
+}
+header img{
+    height: 1.9rem;
+    margin-right: 2%;
+}
+header .raju ol{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    height: 1.5rem;
+    border: 1px solid rgb(241, 164, 50);
+    background-color: rgb(242, 198, 131);
+    border-radius: 50px;
+    padding: 0 2%;
+}
+.raju{
+    display: flex;
+    justify-content: center ;
+}
+.raju ol:hover{
+    cursor: pointer;
+    box-shadow: 2px 3px 3px 2px gray;
+}
+input{
+    border: none;
+    background-color:rgb(242, 198, 131);
+    width:20%;
+    height: 1.5rem;
+
+}
+.raju ol img{
+    height: 0.8rem;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 0;
+    margin-bottom: 7%;
+    width: 100%;
+}
+header ul li:hover{
+    cursor: pointer;
+    color: rgb(94, 94, 247);
+}
+.one .left i{
+    margin-left: 1rem;
+    background-color:rgb(242, 198, 131) ;
+    padding: 1% 2%;
+    font-size: 0.8rem;
+    border-radius: 50px;
+}
+.one .left i:hover{
+    cursor: pointer;
+    box-shadow: 2px 1px 3px 2px lightgray;
+    background-color: blue;
+}
+.one .left h3{
+    margin-left: 1rem;
+    padding-top: 4% ;
+    font-size: 1.5rem;
+    color: blue;
+}
+.one .left h1{
+    margin-left: 1rem;
+    margin: 3%;
+    font-size: 2rem;
+    color: rgb(246, 165, 44);
+}
+.one .left h1:hover{
+    cursor: pointer;
+    color: blue;
+}
+.one .left p{
+    margin:0 1rem;
+    font-size: 0.9rem;
+}
+.one .left ul{
+    list-style: none;
+    margin-bottom: 2rem;
+}
+.one .left ul img{
+    height: 1.5rem;
+    margin-right: 0.4rem;
+}
+.one .left ul li{
+    margin: 0.8rem;
+    display: flex;
+    align-items: center;
+    font-weight: lighter;
+    font-size: 0.8rem;
+}
+.one .left ul li:hover{
+    font-size: 1.3rem;
+}
+.one .left button{
+    border: none;
+    color: white;
+    background-color: rgb(242, 198, 131) ;
+}
+.one .left img{
+    height: 0.7rem;
+}
+
+.one .left span{
+    padding: 0.5rem;
+    width: 30%;
+    border: 1px solid black;
+    background-color: rgb(242, 198, 131) ;
+    align-items: center;
+    border-radius: 50px;
+    margin: 0 4%;
+}
+.one .left span:hover{
+    cursor: pointer;
+    box-shadow: 2px 1px 3px 2px rgb(153, 146, 146);
+}
+.one .right img{
+    margin: 10% 0;
+    height: 20rem;
+   border: 1px solid black;
+   border-radius:50% ;
+    padding: 5%;
+    padding-left: 10%;
+    background-color: rgb(242, 198, 131);
+}
+.one .right img:hover{
+    cursor: pointer;
+    transform: rotate(360deg);
+    background-color: blue;
+}
+.one .right {
+    display: flex;
+    justify-content: center;
+}
+.one .right:hover{
+    
+}
+.two .top{
+
+}
+.two .top ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+    width: 70%;
+    margin: 5% 15%;
+    padding: 3% 0;
+    background-color: wheat;
+    border-radius: 20px;
+}
+.two .top ul li img{
+     height: auto;
+     width: 80%;
+     border: 1px solid black;
+     margin: 10%;
+     background-color: white;
+     border-radius: 50px;
+}
+.two  h2{
+    text-align: center;
+}
+.two .bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    border: 1px solid black;
+    background-color: rgb(244, 217, 176);
+    margin: 5% 15%;
+    border-radius: 20px;
+}.two .bottom img{
+    height: auto;
+}
+.three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15% 0;
+}
+.three i{
+    font-size: 1rem;
+    color: blue;
+    padding: 20% 0;
+}
+.three h1{
+    font-size: 1rem;
+}
+.three b{
+    padding: 15% 0;
+}
+.three .left{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    width: 45%;
+    background-color:rgb(244, 217, 176); ;
+    border-radius: 20px;
+    margin-bottom: 5%;
+}
+.three .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 45%;
+    height: auto;
+    background-color: rgb(244, 217, 176);;
+    border-radius: 20px;
+    margin-bottom: 5%;
+}
+.three .left1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.three img{
+    height: auto;
+    width: 90%;
+}
+.three .right1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.four{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    background-color:rgb(244, 217, 176);;
+    position: relative;
+}
+.four .left .pic{
+    margin: 0 5%;
+    align-items: center;
+    padding-top: 10%;
+}
+.four .left .pic .small{
+    width:23%;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+    margin: 1rem 0.8rem;
+}
+.four .left .pic .big{
+    width: 65%;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: -0.5rem;
+    margin-top: -0.8rem;
+    background-color: white;
+}
+.four .right h1{
+    text-align: center;
+    padding: 5% 0;
+    font-size: 2rem;
+}
+.four .right h2{
+    text-align: center;
+    padding-top: 8%;
+    font-size: 1.5rem;
+}
+.four .right span{
+    color:rgb(246, 165, 44) ;
+}
+.four .right p{
+    margin: 0 1rem;
+}
+.four .right ul img{
+    height: 1.5rem;
+}
+.four .right ul{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+.four .right ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+.four .right .bottom .left2 img{
+    height: 0.7rem;   
+}
+.four .right .bottom .left2 button{
+    border: none;
+    font-size: 0.7rem;
+    background-color:white ;
+}
+.four .right .bottom .left2:hover{
+    cursor: pointer;
+    box-shadow: 2px 1px 3px 2px gray;
+}
+.four .right .bottom .left2{
+    height: 2rem;
+    width: 5.5rem;
+    background-color:white ;
+    border: 1px solid black;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 2rem ;
+    margin-bottom: 5rem;
+}
+.four .right .bottom{
+    display: flex;
+}
+.four .right .bottom .right2{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.four .right .bottom .right2 img{
+    height: auto;
+    width: 100% ;
+}
+.five h1{
+    text-align: center;
+    margin-top: 2rem;
+}
+.five span{
+    color:rgb(246, 165, 44)  ;
+}
+.five p{
+    text-align: center;
+    margin-top: 0.5rem;
+}
+.five ul li{
+    
+}
+.five ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 5%;
+    width: 70%;
+}
+.five ul li:hover{
+    cursor: pointer;
+    background-color: rgb(246, 165, 44) ;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+.five .king{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.king .five1{
+    display: flex;
+    flex-direction: column;
+}
+.king .five1 .top{
+    display: flex;
+    justify-content: center;
+}
+.king .five1 .top img{
+    height: 10rem;
+    border: 1px solid rgb(221, 225, 134);
+    background-color: rgb(244, 217, 176);
+    padding: 0.5rem;
+    border-radius: 20px;
+}
+.king .five1 .bottom img{
+    height: 30%;
+    width: 30%;
+    margin-bottom: 0.7rem;
+}
+.king .five1 .bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0;
+}
+.king .five1 .bottom p{
+    margin-bottom: 0.7rem;
+}
+.king .five1 .bottom p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+}
+.six{
+    margin-top: 5rem;
+}
+.six .top1 .king{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.six .bottom1 .gayi{
+    padding-top: 2.5rem;
+}
+.six .top1 .gayi .left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.six .bottom1{
+    width: 80%;
+    margin-left: 10%;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color:rgb(244, 217, 176) ;
+    margin-top: 4rem;
+}
+.six .bottom1 .gayi .left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.six .bottom1 .gayi .left h1{
+    font-size: 2rem;
+    text-align: center;
+}
+.six .bottom1 .gayi .left p{
+    text-align: center;
+}
+.six .bottom1 .gayi .left img{
+    height: 2.5rem; 
+}
+.six .bottom1 .gayi .left span{
+    height: 2rem;
+    width: 5.5rem;
+    background-color:white ;
+    border: 1px solid black;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    margin: 2rem ;
+    margin-bottom: 5rem;
+    padding-left: 1%;
+}
+.six .bottom1 .gayi .left button{
+    border: none;
+    height: 0.7rem;
+    background-color:white ;
+}
+.six .bottom1 .gayi .left span img{
+    height: 0.7rem;
+    padding-left: 3%;
+}
+.six .bottom1 span:hover{
+    cursor: pointer;
+    box-shadow: 2px 1px 3px 2px gray;
+}
+.six .bottom1 .gayi .right img{
+    height: auto;
+    width: 100%;
+}
+.seven .virat .left img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+.seven .virat .maa{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 80%;
+}
+.seven .virat .raa{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 20%;
+    width: 80%;
+}
+.seven .virat .kohli {
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    margin:1rem;
+    border: 1px solid wheat;
+    background-color: white;
+    border-radius: 8px;
+}
+.seven .virat .kohli .right img{
+    height: 0.7rem;
+}
+.seven .virat .kohli .right{
+    margin-left: 0.6rem;
+}
+.seven p{
+    font-size: 1rem;
+}
+.seven .virat .maa .kohli{
+    
+}
+.seven h1{
+    text-align: center;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+}
+.seven h3{
+   text-align: center;
+   font-weight: lighter;
+}
+.seven{
+    margin: 5rem 0;
+    border: 1px solid black;
+    background-color:rgb(244, 217, 176) ;
+}
+.seven .virat{
+    margin-top: 1rem;
+}
+.seven span{
+    color:rgb(246, 165, 44);
+}
+.eight{
+    margin: 15% 0;
+}
+.eight ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.eight ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin-bottom: 3rem;
+    background-color: wheat;
+}
+.eight ul img{
+    height: 13rem;
+    width: 13rem;
+    background-color: white;
+    margin-top: 0.7rem;
+}
+.eight ul p{
+    text-align: center;
+    width: 14rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.eight h1{
+    font-size: 1.8rem;
+    margin:3rem 4rem;
+
+}
+.nine{
+    margin: 7% 0;
+}
+.nine .top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.nine .top ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;border: 1px solid lightcoral;
+    background-color: wheat;
+    border-radius: 30px;
+    width: 70%;
+    padding: 0 3%;
+    margin-bottom: 7%;
+}
+.nine .top ul img{
+    height: 9rem;
+    width: 9rem;
+    border: 1px solid lightblue;
+    background-color: white;
+    margin: 2rem 0;
+    border-radius: 30px;
+    width: 100%;
+}
+.nine .top ul h1{
+    padding-top:2rem ;
+}
+.nine .top ul p{
+    margin-bottom: 2rem;
+}.nine .bottom img{
+    width: 70%;
+    margin-top: 5rem;
+    margin-left: 15%;
+}
+.ten .top img{
+    width: 70%;
+    margin-left: 15%;
+}
+.ten{
+    margin-top: 2rem;
+}
+.ten .bottom{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 15%;
+}
+.ten .bottom img{
+    height: 1rem;
+}
+.ten .bottom h1{
+    font-size: 1rem;
+}
+.ten .bottom span{
+    display: flex;
+}
+.ten .bottom ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.ten .bottom1{
+    display: flex;
+    justify-content: space-around;
+    width: 120%;
+    margin: 0 -10%;
+}
+.ten .bottom1 ul li{
+    font-size: 0.7rem;
+    margin-top: 0.3rem;
+}
+.ten .bottom ol{
+    list-style: none;
+    margin-top: 1rem;
+}
+.ten .bottom ol h1:hover{
+    cursor: pointer;
+    color: rgb(246, 165, 44);;
+}
+.ten .bottom ol p{
+    font-size: 0.7rem;
+    margin: 0.6rem 0;
+}
+.ten .bottom ol h1{
+    font-size: 1rem;
+}
+.ten .bottom img{
+    height: 1rem;
+}
+.ten .bottom1 ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+}
+.ten .bottom1 li h3:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color:rgb(246, 165, 44); ;
+}
+.ten input{
+    border-radius: 50px;
+    border: none;
+    outline: none;
+}
+.ten input:hover{
+    cursor: pointer;
+    box-shadow: 2px 1px 3px 2px gray;
+    background-color: blue;
+}
+.ten .box10{
+    border: 1px solid lightgray;
+    height: 2rem;
+    width: 90%;
+    margin: 7% 5%;
+    background-color: rgb(240, 214, 218);
+}
+.twelve .right li{
+    display: flex;
+}
+.fourteen table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
+.fourteen tr:nth-child(odd){
+    background-color: rgb(207, 206, 206);
+}
+.fourteen table,tr,td{
+    text-align: center;
+}
+ .fourteen table{
+    margin-bottom: 2rem;
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+}
+.my .left{
+    display: flex;
+    display: grid;
+    grid-template-columns: 20% auto;
+}
+.my .left .left1 img{
+    height: 20%;
+    width: 400%; 
+    border: 1px solid wheat;
+    background-color: wheat;
+    border-radius: 10%;
+    margin: 0.6rem;
+}
+.my .left .left1{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-left: 1rem;
+}
+.my .left .right1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.my .left .right1 img{
+    height: auto;
+    width: 100%;
+}
+.box{
+    height: 1.5rem;
+    width: 1.5rem;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.color{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 1rem 2rem;
+}
+.box1{
+    background-color: wheat;
+}
+.box2{
+    background-color: aqua;
+}
+.box3{
+    background-color: blue;
+}
+.box4{
+    background-color: brown;
+}
+.box5{
+    background-color: blueviolet;
+}
+.box6{
+    background-color: chartreuse;
+}
+.box7{
+    background-color: cadetblue;
+}
+.eleven .right h1{
+    margin-left:  1rem;
+    margin-top: 1rem;
+}
+.eleven .right .top p{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+.eleven .right b{
+    margin-left: 1rem;
+    color: blue;
+    font-size: 1.5rem;
+}
+.eleven .right span b{
+    text-decoration: line-through;
+    color: black;
+    font-size: 1rem;
+    
+}
+.eleven .right ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1rem;
+    align-items: center;
+    margin: 1rem;
+}
+.eleven .right .bottom ul li:hover{
+    cursor: pointer;
+    font-size: 1rem;
+}
+.eleven .right ul img{
+    height: 1.5rem;
+}
+.eleven .right ul li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.eleven .right ul li:hover{
+    cursor: pointer;
+    text-decoration: double;
+    color: blue;
+}
+.eleven .right .bottom p{
+    margin-left: 0.6rem;
+}
+.eleven .right h3{
+    margin: 1rem;
+}
+.twelve .right h3{
+    margin: 2rem;
+}
+.twelve .right b{
+    margin-left: 2rem;
+    margin-bottom: 0.6rem;
+}
+.thirteen .right h1{
+    margin: 1rem;
+}
+.thirteen .right ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 2rem;
+}
+.thirteen .right ul li{
+    margin-bottom: 0.5rem;
+}
+.fourteen h2{
+    margin: 1rem;
+}
+.fifteen .yogi .top img{
+    height: 7rem;
+    width: 7rem;
+    border: 1px solid black;
+    background-color: wheat;
+    border-radius: 10%;
+    padding: 0.5rem;
+}
+.fifteen .yogi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fifteen .yogi p{
+    width: 8rem;
+    margin-top: 0.6rem;
+}
+.fifteen .yogi p:hover{
+    cursor: pointer;
+    color: blue;
+}
+.fifteen .sa{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2 , 2fr);
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.fifteen .yogi .bottom button{
+    background-color: wheat;
+    height: 2rem;
+    width: 100%;
+    border: 1px solid wheat;
+    border-radius: 50px;
+    font-size: 0.7rem;
+    padding: 0.5rem;
+    margin: 1rem 0;
+}
+.fifteen .yogi .bottom button:hover{
+    cursor: pointer;
+    box-shadow: 2px 1px 3px 2px gray;
+}
+.fifteen h3{
+    margin-left: 1rem;
+}
+.sixteen table{
+    width: 100%;
+    height: auto;
+    font-size: 0.5rem;
+    padding: -0.5rem;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+.sixteen table,td img{
+    height: 0.5rem;
+    width: auto;
+}
+.sixteen table,tr,td{
+    padding: 2% 0;
+}
+.seventeen .kohli{
+    display: flex;
+    border: 1px solid black;
+    margin-bottom: 2%;
+    height: auto;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 5px;
+    padding: 2%;
+}
+.seventeen .right .order{
+    display: flex;
+    justify-content: space-around;
+}
+.seventeen .kohli .left img{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+}
+.seventeen .kohli .right img{
+    height: 0.7rem;
+    margin-left: 0.5rem
+}
+.seventeen .kohli p{
+    font-size: 0.7rem;
+    margin-left: 0.5rem;
+}
+.seventeen .left ul .box19{
+    height: 1rem;
+    width: 70%;
+    border-radius: 50px;
+    display: flex;
+    margin-left: 2%;
+    margin-bottom: 1%;
+}
+.box19 .box20{
+    height: 1rem;
+    width: 8rem;
+    background-color: blue;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.box19 .box30{
+    height: 1rem;
+    width: 2rem;
+    background-color: wheat;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.box19 .box21{
+    height: 1rem ;
+    width: 9rem;
+    background-color: blue;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.box19 .box31{
+    height: 1rem;
+    width: 1rem;
+    background-color: wheat;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.box19 .box22{
+    height: 1rem ;
+    width: 6rem;
+    background-color: blue;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.box19 .box32{
+    height: 1rem;
+    width: 4rem;
+    background-color: wheat;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.box19 .box23{
+    height: 1rem ;
+    width: 5rem;
+    background-color: blue;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.box19 .box33{
+    height: 1rem;
+    width: 5rem;
+    background-color: wheat;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.box19 .box24{
+    height: 1rem ;
+    width: 2rem;
+    background-color: blue;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.box19 .box34{
+    height: 1rem;
+    width: 8rem;
+    background-color: wheat;
+     border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.seventeen .left ul li{
+    display: flex;
+    margin: 0.7rem ;
+}
+.seventeen .left ul{
+    margin-bottom: 2rem;
+}
+.seventeen h3{
+    margin-top: 1rem ;
+    margin-left: 1rem;
+}
+.seventeen .left img{
+    height: 1rem;
+    margin-left: 1rem;
+}
+.seventeen .left p{
+    margin-left: 1rem;
+}
+@media screen and (min-width:850px) {
+    header{
+       display: flex;
+       display: grid;
+       grid-template-columns: 25% 35% auto; 
+       align-items: center;
+       height: 15vh;
+    }
+    header .raju ol{
+        width: 70%;
+        display: flex;
+    }
+    header span{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 1rem;
+    }
+    .one{
+        display: flex;
+        height: 100%;
+        margin-bottom: 3rem;
+    }
+    .one .left p{
+        font-size: 1rem;
+        margin: 3% ;
+    }
+    .one .left ul li{
+        font-size: 1rem;
+        margin-bottom: 5%;
+    }
+    .one .left{
+        width: 50%;
+        margin-top: 2rem;
+    }
+    .one .right{
+        width: 50%;
+        margin-top: -4%;
+        padding: 3% 0;
+    }
+    .one .right img{
+        height: auto;
+        width: 70%;
+        align-items: center;
+    }
+    .one .left span button{
+        margin-top: 1rem;
+        align-items: baseline;
+    }
+    .two{
+        display: flex;
+        flex-direction:column;
+    }
+    .two .top ul{
+        display: flex;
+        flex-direction: row;
+    }
+    .two .top ul li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .two .top ul li h2{
+        margin: 0 10%;
+    }
+    .two .bottom{
+        display: flex;
+        flex-direction: row;
+        display: grid;
+        grid-template-columns: auto 40% 30%;
+        align-items: center;
+        width: 60%;
+        margin-left: 20%;
+    }
+    .two .bottom img{
+        height: auto;
+        width: 100%;
+        
+    }
+    .two .bottom h2{
+        text-align: center;
+    }
+    .three{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 70%;
+        margin-left:15% ;
+    }
+    .four{
+        display: flex;
+        flex-direction: row;
+        }
+    .four .left{
+        width: 50%;
+        align-items: center;
+
+    }
+    .four .right{
+        width: 50%;
+        font-size: 1.5rem;
+        padding-right: 10%;
+    }
+    .four .bottom .left2{
+        margin-top: 2rem;
+    }
+    .four .left .pic{
+        padding: 7% 0;
+    }
+    .five .king{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .five ul{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .six .top1 .king {
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .six .bottom1 .gayi{
+        display: flex;
+        justify-content: space-around;
+    }
+    .six .bottom1{
+        width: 60%;
+        margin-left: 20%;
+    }
+    .six .bottom .gayi .right img{
+        height: auto;
+        width: 100%;
+    }
+    .seven{
+        height: 100%;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .seven .virat{
+        display: flex;
+        flex-direction: column;
+    }
+    .seven .virat .maa{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+    }
+    .seven .virat .raa{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin:0 10%;
+    }
+    .seven .virat .kohli{
+        padding: 2%;
+    }
+    .eight ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 15%;
+    }
+    .eight h1{
+        margin-left: 3rem;
+    }
+    .nine .top{
+        display: flex;
+        flex-direction: row;
+    }
+    .nine .top ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .nine .top ul li{
+        margin-left: 7%;
+    }
+    .ten .bottom{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .ten .bottom ol{
+        width: 30%;
+        margin-right: 8%;
+    }
+    .ten .bottom ol img{
+        height: 1.5rem;
+    }
+    .ten .bottom ol h1{
+        font-size: 1.4rem;
+    }
+    .ten .bottom ol p{
+        font-size: 1rem;
+    }
+    .ten .bottom input{
+        width: 70%;
+        height: 1.5rem;
+    }
+    .ten .bottom ul h3{
+        font-size: 1rem;
+    }
+    .ten .bottom ul li{
+        font-size: 1rem;
+    }
+    .eleven{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .eleven .right{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .eleven .right b{
+        margin: 5% 3%;
+    }
+    .eleven .right ul{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .eleven .right ul li{
+        margin-bottom: 3%;
+    }
+    .eleven .right p{
+        margin: 4% 0;
+    }
+    .twelve{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .twelve .right ul{
+        display: flex;
+        flex-direction: column;
+        margin-top: 7%;
+    }
+    .twelve .right ul li{
+        margin: 1%;
+    }
+    .thirteen{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .thirteen .right ul li{
+        margin: 2%;
+    }
+    .thirteen .right h1{
+        margin-bottom: 5%;
+    }
+    .fourteen .table10{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin: 4% 0;
+
+    }
+    .fourteen h2{
+        margin-left: 6%;
+    }
+    .fourteen .table10 .table1{
+        width: 95%;
+    }
+    .fourteen .table10 .table2{
+        width: 95%;
+    }
+    .sixteen table{
+        width: 80%;
+        height: auto;
+        font-size: 1rem;
+    }
+    .sixteen table,tr,th{
+    
+    }
+    .fifteen .sa{
+        display: flex;
+        justify-content: space-around;
+        width: 70%;
+        margin:5% 15%;
+        
+    }
+    .fifteen h3{
+        margin-left: 5%;
+    }
+    .seventeen{
+        display: grid;
+        grid-template-columns: 34% 66%;
+        width: 80%;
+        margin:5% 10% ;
+    }
+    .seventeen .right .order{
+        display:grid;
+        grid-template-columns: 50% auto;
+    }
+    .seventeen .right .order .left1{
+        margin: 5%;
+    }
+    .seventeen .right .order .right1{
+        margin: 5%;
+    }
+}    
